@@ -1,0 +1,72 @@
+.superpeer {
+    &__heading {
+        font-size: 64px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 1px;
+
+        color: #222222;
+
+        margin-bottom: 14px;
+    }
+
+    &__text {
+        font-size: 22px;
+        line-height: 130%;
+
+        max-width: 714px;
+        margin: 0 auto;
+        text-align: center;
+
+        color: #555555;
+
+        margin-bottom: 53px;
+    }
+
+    &__wrap-button {
+        text-align: center;
+        margin-bottom: 88px;
+    }
+
+    &__button {
+        position: relative;
+        padding: 13px 16px 12px 39px;
+
+        &::before {
+            position: absolute;
+            top: 16px;
+            left: 15px;
+        }
+    }
+
+    &__wrap-image {
+        text-align: center;
+        // position: relative;
+
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     bottom: 0;
+        //     left: 0;
+
+        //     height: 152px;
+        //     width: 1468px;
+        //     background: url("./../img/vawe.png");
+        //     background-repeat: repeat;
+        //     z-index: -1;
+        // }
+    }
+
+    &__imgage {
+        max-width: 100%;
+        border-radius: 17.41px;
+    }
+
+    // &__wrap-wave {
+    //     margin-top: -23px;
+    //     background: url("./../img/vawe.png");
+    // }
+
+    // &__vawe {
+    // }
+}

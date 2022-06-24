@@ -1,2 +1,22 @@
 .page {
+    &__superpeer {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -130px;
+            left: 168px;
+            z-index: -1;
+
+            height: 1360px;
+            width: 1143px;
+            background: url("./../img/circles.png") 0 0 / contain no-repeat;
+        }
+
+        margin-bottom: 100px;
+    }
+
+    &__creators {
+    }
 }

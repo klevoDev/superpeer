@@ -1,0 +1,75 @@
+.creators {
+    &__wrap-wave {
+        background: url("./../img/vawe.png") 0 0 / contain repeat;
+    }
+
+    &__vawe {
+    }
+
+    &__subheading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 110%;
+
+        text-align: center;
+        letter-spacing: 1px;
+        max-width: 540px;
+        margin: 0 auto;
+
+        color: #222222;
+
+        margin-bottom: 11px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+
+        color: #222222;
+
+        margin-bottom: 66px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -46.5px;
+    }
+
+    &__column {
+        padding: 0 60px 46.5px;
+        flex: 0 1 34%;
+    }
+
+    &__item {
+    }
+
+    &__wrap-image {
+    }
+
+    &__image {
+    }
+
+    &__body {
+    }
+
+    &__subtitle {
+    }
+
+    &__subscription {
+    }
+
+    &__list {
+    }
+
+    &__point {
+    }
+
+    &__ref {
+    }
+}
+.container {
+}
+.subheading {
+}
