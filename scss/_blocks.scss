@@ -1,0 +1,26 @@
+.wrapper {
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    background-color: hidden;
+    border-radius: 8px;
+
+    color: #222222;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        background-color: #ffd338;
+        border-radius: 8px;
+    }
+}
