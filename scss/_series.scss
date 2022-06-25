@@ -1,0 +1,79 @@
+.series {
+    &__subheading {
+        margin-bottom: 74.5px;
+    }
+
+    &__wrap-image {
+        text-align: center;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__row {
+    }
+
+    &__column {
+    }
+
+    &__item {
+        background-color: #ffedc2;
+        padding: 31px 47px 40px 48px;
+    }
+
+    &__wrap-img {
+    }
+
+    &__img {
+    }
+
+    &__subtitle {
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 140%;
+
+        text-align: center;
+
+        color: #555;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__point {
+    }
+
+    &__blank {
+        font-size: 12px;
+        line-height: 140%;
+        text-align: center;
+
+        color: #98a3b6;
+    }
+
+    &__subscription {
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    &__data {
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    &__wrap-button {
+    }
+
+    &__button {
+    }
+}
