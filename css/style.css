@@ -111,6 +111,21 @@ body {
   border-radius: 8px;
 }
 
+.image {
+  position: relative;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 86px;
+  height: 86px;
+}
+
 .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,6 +199,11 @@ body {
   background: url("./../img/circles.png") 0 0/contain no-repeat;
 }
 
+.page__creators {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff7e0), to(#fff));
+  background: linear-gradient(#fff7e0, #fff);
+}
+
 .superpeer__heading {
   font-size: 64px;
   line-height: 110%;
@@ -228,10 +248,6 @@ body {
   border-radius: 17.41px;
 }
 
-.creators__wrap-wave {
-  background: url("./../img/vawe.png") 0 0/contain repeat;
-}
-
 .creators__subheading {
   font-weight: 700;
   font-size: 48px;
@@ -264,6 +280,134 @@ body {
 .creators__column {
   padding: 0 60px 46.5px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 34%;
-          flex: 0 1 34%;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.creators__item {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.creators__wrap-image {
+  margin-bottom: 48px;
+}
+
+.creators__wrap-image_1::before {
+  background: url("./../img/dawn-dickson.png");
+}
+
+.creators__wrap-image_2::before {
+  background: url("./../img/thomas-hopkins.png");
+}
+
+.creators__wrap-image_3::before {
+  background: url("./../img/alice-johnson.png");
+}
+
+.creators__wrap-image_4::before {
+  background: url("./../img/mark-wahlbeck.png");
+}
+
+.creators__wrap-image_5::before {
+  background: url("./../img/jason-akel.png");
+}
+
+.creators__wrap-image_6::before {
+  background: url("./../img/tristan-pollock.png");
+}
+
+.creators__wrap-image_7::before {
+  background: url("./../img/jose-caya.png");
+}
+
+.creators__wrap-image_8::before {
+  background: url("./../img/devrim-yasar.png");
+}
+
+.creators__wrap-image_9::before {
+  background: url("./../img/armagan-amcalar.png");
+}
+
+.creators__wrap-image_10::before {
+  background: url("./../img/jasmine-lawrence.png");
+}
+
+.creators__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.creators__subtitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #222;
+  margin-bottom: 11px;
+}
+
+.creators__subscription {
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.creators__desc {
+  width: 393px;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #555555;
+  margin-bottom: 21px;
+}
+
+.creators__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.creators__point {
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.creators__point:nth-child(1) {
+  color: #98a3b6;
+}
+
+.creators__point:nth-child(2) {
+  margin-left: 8px;
+}
+
+.creators__point:nth-child(3) {
+  text-transform: uppercase;
+  margin-left: 24px;
+}
+
+.creators__ref {
+  padding: 16px 32px 15px 32px;
+  background-color: #ffedc2;
+  border-radius: 8px;
+  color: #222222;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.creators__ref:hover {
+  background-color: #ffd338;
 }
